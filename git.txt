@@ -5,7 +5,10 @@ git add .
 
 git commit
 git commit -a -m "my third commit"
-git commit -m "story"
+git commit -m "first commit"
+git branch -M main
+ssh-keygen -o { For adding SSH keys }
+ls -a
 git log
 git diff
 git diff --staged
