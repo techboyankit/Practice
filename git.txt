@@ -27,6 +27,7 @@ git push origin v1.0
 git checkout -b feature1
 git switch main
 git switch feature1
+git switch -c feature2
 
 ///////////////////////////
 ADVANCED
