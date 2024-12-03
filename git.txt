@@ -30,6 +30,14 @@ git switch feature1
 git push origin feature1
 git switch -c feature2
 
+git branch
+git switch feature1
+git merge feature1
+
+
+
+
+
 ///////////////////////////
 ADVANCED
 git checkout [branch name] --orphan

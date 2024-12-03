@@ -1,0 +1,41 @@
+git branch ( to check branch )
+git commit -m "add new button"
+git status
+
+git branch -M main (to rename branch)
+git checkout <- branch name -> (to navigate)
+git checkout -b <- new branch name -> (to create new branch)
+
+git branch -d <- branch name -> (to delete branch)
+git diff <- branch name -> ( to compare commits, branches, files & more)
+git merge <- branch name -> (to merge 2 branches)
+OR
+create a PR
+
+git pull origin branch ( used to fetch and download content from a remote repo and immediately update the local repo to match that content).
+
+//fixing mistakes
+case 1: staged changes
+   git reset <- file name ->
+   git reset
+
+case 2: committed changes (for one commit)
+   git reset HEAD-1
+
+case 3: committed changes (for many commits)
+   git reset <- commit hash ->
+   git reset --hard <- commit harsh ->
+
+git push origin HEAD:master
+
+echo "# ki" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:techboyankit/ki.git
+git push -u origin main
+
+git remote add origin git@github.com:techboyankit/ki.git
+git branch -M main
+git push -u origin main
