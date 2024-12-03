@@ -24,14 +24,14 @@ git tag v1.1 -m "27th June release"
 git show v1.0
 git push origin v1.0
 
-git checkout -b feature1
+git checkout -b feature1 ( To create a new branch )
 git switch main
 git switch feature1
 git push origin feature1
 git switch -c feature2
 
 git branch
-git switch feature1
+git switch feature2
 git merge feature1
 
 
@@ -40,6 +40,11 @@ git merge feature1
 
 ///////////////////////////
 ADVANCED
+
+git fetch origin (to fetch all track history)
+git diff origin/master
+
+
 git checkout [branch name] --orphan
 git rebase [source branch] [target branch]
 git rebase -i [commit hash]^
