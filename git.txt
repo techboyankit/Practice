@@ -25,6 +25,8 @@ git show v1.0
 git push origin v1.0
 
 git checkout -b feature1
+git switch main
+git switch feature1
 
 ///////////////////////////
 ADVANCED
